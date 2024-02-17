@@ -1,8 +1,8 @@
-GET https://node-do-zero-fq15.onrender.com?search=
+GET https://node-do-zero-fq15.onrender.com/videos?search
 
 ###
 
-POST https://node-do-zero-fq15.onrender.com
+POST https://node-do-zero-fq15.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 ###
 
-PUT https://node-do-zero-fq15.onrender.com/
+PUT https://node-do-zero-fq15.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE https://node-do-zero-fq15.onrender.com/
+DELETE https://node-do-zero-fq15.onrender.com/videos

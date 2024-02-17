@@ -56,7 +56,7 @@ server.put('/videos/:id', async (request, reply) => {
 
 
 
-server.delete('/videos/:id', async (request, reply) => {
+server.delete('/:id', async (request, reply) => {
     const id = request.params.id;
 
     if (id != '') await database.delete(id);
